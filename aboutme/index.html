@@ -101,15 +101,15 @@ In my nonexistent spare time:
 
 							<p>If you want to contact me you can try with this form</p>
 
-							<form method="post" action="http://profesorfalken.com/contact">
+							<form method="post" action="#">
 								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" onclick="javascript: alert('Not yet available')" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" onclick="javascript: alert('Not yet available')" /></div>
 									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" placeholder="Message" onclick="javascript: alert('Not yet available')"></textarea>
 									</div>
 									<div class="12u$">
-										<input type="submit" value="Send Message" />
+										<input type="submit" value="Send Message" onclick="javascript: alert('Not yet available');return false;" />
 									</div>
 								</div>
 							</form>
